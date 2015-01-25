@@ -1,0 +1,32 @@
+{
+  "name": "glyphicons-extractor",
+  "version": "0.0.0",
+  "homepage": "https://github.com/peterblazejewicz/glyphicons-extractor",
+  "authors": [
+    "Peter Blazejewicz <peter.blazejewicz@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.2",
+    "octicons": "~2.1.2",
+    "icomoon": "~0.0.3",
+    "ionicons": "~2.0.1",
+    "foundation-icon-fonts": "*"
+  },
+  "overrides": {
+    "octicons": {
+      "main": [
+        "octicons/octicons.css"
+      ]
+    }
+  }
+}
